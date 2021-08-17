@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#main {
+  min-width: 400px;
+  min-height: 700px;
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+}
+h1 {
+  color: #11324D;
+  font-size: 45px;
+}
+#title {
+  margin: 50px 0px;
+}
+#img-div {
+    margin: auto;
+    width: 90%;
+}
+img {
+  display: block;
+  margin: 0px auto;
+}
+#image {
+    max-width: 100%;
+    background-color: rgb(221, 196, 196);
+    border-radius: 8px;
+    padding: 5px;
+}
+#img-caption {
+  margin: 0px auto;
+  width: 50%;
+}
+figcaption {
+    text-align: center;
+    padding: 10px 0px;
+}
+h4 {
+  font-size: 25px;
+  padding-top: 30px;
+}
+ul {
+  margin-top: 30px;
+}
+ul li {
+  list-style: none;
+}
+#tribute-info {
+  width: 60%;
+  margin: auto;
+  padding: 20px 0px;
+}
+.movies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+#tribute-info img {
+  width: 200px;
+  height: 300px;
+}
+#tribute-link {
+  padding: 25px 0px;
+}
+
+
+@media (max-width: 768px) {
+  #tribute-info {
+    width: 90%;
+  }
+  #tribue-info img {
+    width: 100px;
+    height: 200px;
+  }
+  .movies {
+    grid-template-columns: 1fr 1fr;
+  }
+}
